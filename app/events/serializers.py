@@ -10,5 +10,5 @@ class EventSerializer(serializers.ModelSerializer):
 
 class CommentSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Event
+        model = Comment
         fields = '__all__'
